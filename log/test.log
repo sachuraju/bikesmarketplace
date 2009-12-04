@@ -44,3 +44,17 @@ Processing BikesController#new (for 0.0.0.0 at 2009-12-04 23:45:43) [GET]
 Rendering bikes/new
 Completed in 5ms (View: 0, DB: 2) | 200 OK [http://test.host/bikes/new]
   [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (21.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mBEGIN[0m
+
+
+Processing BikesController#new (for 0.0.0.0 at 2009-12-05 01:02:58) [GET]
+  [4;36;1mBike Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'bikes_test.bikes' doesn't exist: SHOW FIELDS FROM `bikes`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing BikesController#new (for 0.0.0.0 at 2009-12-05 01:05:22) [GET]
+  [4;36;1mBike Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'bikes_test.bikes' doesn't exist: SHOW FIELDS FROM `bikes`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
