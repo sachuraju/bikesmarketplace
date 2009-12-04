@@ -1,11 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="fd431420-3afb-46f8-8b3f-b10e1f3f15b0" name="Default" comment="added a view to bike">
+    <list default="true" readonly="true" id="fd431420-3afb-46f8-8b3f-b10e1f3f15b0" name="Default" comment="made changes to the workspace.xml file">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/helpers/plugin_application_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/render_spec/_a_partial.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec/templates/script/autospec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/rjs_spec/insert_html.js.rjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec/templates/rspec.rake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_controller/templates/helper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec/templates/script/spec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/example/render_observer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_model/rspec_model_generator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/rjs_spec/hide_page_element.js.rjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/models/animal.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/explicit_helper.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/template_with_partial_using_collection.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/view_helpers.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/helpers/explicit_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/autospec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/rspec.rake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/matchers/ar_be_valid.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/extensions.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/bike/index.html.erb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/controllers/rjs_spec_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/matchers/render_template_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/template_with_partial_with_array.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/objects/_object.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/models/person.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/controllers/action_view_base_spec_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/controllers/redirect_spec_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/path_params.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_model/templates/model_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/bikes_controller_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/rjs_spec/hide_div.js.rjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/render_spec/action_with_alternate_layout.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/example/view_example_group.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/_spacer.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/example/cookies_proxy_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/tag_spec/single_div_with_no_attributes.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/matchers/include_text_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/controller_spec/action_setting_flash_after_session_reset.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/matchers/render_template.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/integration_spec/integration_spec_generator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/matchers/have_text_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/matchers/redirect_to_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_scaffold/templates/helper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/extensions/action_controller/rescue.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec/rspec_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bikesmarketplace.iml" afterPath="$PROJECT_DIR$/.idea/bikesmarketplace.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/.document" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/controller_spec/action_with_errors_in_template.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/autotest/mappings_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/example/controller_isolation_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/example/model_example_group.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/tag_spec/single_div_with_one_attribute.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/interop/testcase.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/example/helper_example_group.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/matchers/errors_on_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_controller/templates/controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/Contribute.rdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/example/shared_routing_example_group_examples.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_controller/templates/view_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/render_spec/some_action.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/example/routing_helpers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec/templates/spec.opts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/_partial_with_sub_partial.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/matchers/include_text.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_model/USAGE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/template_with_partial.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_controller/rspec_controller_generator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec/templates/rcov.opts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/bikes/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/rjs_spec/replace_html_with_partial.js.rjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/layouts/application.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/controller_spec/action_setting_flash_before_session_reset.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/rcov.opts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/extensions/action_controller/test_case.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/tag_spec/no_tags.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/example/cookies_proxy.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/block_helper.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/rjs_spec/_replacement_partial.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/spec_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/spec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/matchers/should_change_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/matchers/route_to.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/autotest/discover.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/_partial_used_twice.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/extensions/active_support/test_case.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/should_not_receive.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/layouts/simple.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/models/thing.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/controllers/example.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/example/routing_example_group_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/helpers/addition_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/rjs_spec/visual_toggle_effect.js.rjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/matchers/ar_be_valid_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/example/functional_example_group.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/example/configuration_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/sample_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/rjs_spec/replace.js.rjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/extensions/action_view_base_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec/templates/spec_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/matchers/have_text.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_controller/USAGE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/controller_spec/_partial.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/matchers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/TODO.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/example/error_handling_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/_partial_with_local_variable.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_scaffold/templates/routing_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/mocks/mock_model_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/accessor.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_scaffold/rspec_scaffold_generator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/spec.opts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/sample_modified_fixture.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_default_values.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/extensions/action_view/base.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_scaffold/templates/controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/History.rdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/example/view_example_group_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/mocks/ar_classes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/example/assigns_hash_proxy_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/example/example_group_factory_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/bikes_controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20091204180409_create_users.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/helpers/view_spec_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/render_spec/some_action.js.rjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_scaffold/templates/show_erb_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/extensions/action_controller/test_response.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/extensions/spec/matchers/have.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_scaffold/templates/new_erb_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_scaffold/templates/index_erb_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/multiple_helpers.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/init.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/extensions/active_record/base.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/example/integration_example_group.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/bikes_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/example/model_example_group_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/example/routing_example_group.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/example/controller_example_group.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/version.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/mocks/stub_model_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/entry_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/_partial.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/bike.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/interop/testcase_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/rjs_spec/visual_effect.js.rjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec/templates/previous_failures.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/controllers/controller_spec_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/matchers/assert_select.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/controller_spec/non_existent_action_with_existent_template.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/example/helper_example_group_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/test.log" afterPath="$PROJECT_DIR$/log/test.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/example/controller_example_group_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/example/test_unit_assertion_accessibility_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/rails_suite.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/autotest/rails_rspec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/README.rdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/controller_spec/action_with_template.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/controllers/application.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/mocks.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/helpers/more_explicit_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/foo/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/matchers/assert_select_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/example/assigns_hash_proxy.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec_scaffold/templates/edit_erb_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/spec/rails/extensions/active_record_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/matchers/change.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/rspec/CHANGES" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/example.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/generators/integration_spec/templates/integration_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/matchers/redirect_to.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/lib/spec/rails/extensions/spec/runner/configuration.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/Upgrade.rdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/view_spec/implicit_helper.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/controllers/render_spec_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/Manifest.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/rjs_spec/replace_html.js.rjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/plugins/rspec-rails/spec/resources/views/controller_spec/action_setting_the_assigns_hash.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
     </list>
-    <ignored path=".idea/workspace.xml" />
+    <list id="379041ac-d9de-498d-adbf-071dd0be85a1" name="Failed commit: Default" comment="committing log file, it's preventing update.." />
     <ignored path="bikesmarketplace.iws" />
+    <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +212,8 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <file leaf-file-name="bikes_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/bikes_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -35,37 +221,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/bikes/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SampleFile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SampleFile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/bike/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.12903225">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,8 +278,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,23 +296,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bikesmarketplace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bikesmarketplace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,19 +485,39 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="9" y="33" width="1900" height="1138" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903865" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16221985" sideWeight="0.66402376" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.66402376" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32903865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -373,7 +538,7 @@
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a view to bike" />
+    <option name="LAST_COMMIT_MESSAGE" value="committing log file, it's preventing update.." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -389,24 +554,16 @@
     <MESSAGE value="wrote a sample file to test committing" />
     <MESSAGE value="my second commit" />
     <MESSAGE value="added a view to bike" />
+    <MESSAGE value="made changes to the workspace.xml file" />
+    <MESSAGE value="committing log file, it's preventing update.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/log/development.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="0" selection-start="10011" selection-end="10011" vertical-scroll-proportion="0.9575372" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" />
+        <state line="15" column="0" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
@@ -416,14 +573,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SampleFile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/performance/browsing_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/Migration/create_bike.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/bikes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bike/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/bikes/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.12903225">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
