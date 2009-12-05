@@ -10,4 +10,28 @@ describe BikesController do
       response.should be_success
     end
   end
+  
+  describe "create" do
+    it "should create a new bike" do
+      bike = Bike.new('brand' => nil, 'cost' => nil)
+      params = {'brand' => 'blah', 'cost' => 1200}
+      Bike.expects(:new).with(params).returns(bike)
+      bike.expects(:save).returns(true)
+      
+      post :create, 'bike' => {'brand' => 'blah', 'cost' => 1200}
+      response.should be_success
+    end
+
+    it "should not create a bike if save fails" do
+      bike = Bike.new('brand' => nil, 'cost' => nil)
+      params = {'brand' => 'blah', 'cost' => 1200}
+      Bike.expects(:new).with(params).returns(bike)
+      bike.expects(:save).returns(false)
+      
+      post :create, 'bike' => {'brand' => 'blah', 'cost' => 1200}
+      
+      response.status == 422
+      response.should render_template(:new)
+    end
+  end
 end

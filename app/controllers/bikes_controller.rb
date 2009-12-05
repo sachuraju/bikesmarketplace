@@ -6,8 +6,10 @@ class BikesController < ApplicationController
   
   def create
     @bike = Bike.new(params[:bike])
-    
-    @bike.save
-    head :ok
+    if @bike.save
+      head :ok
+    else
+      render :action => 'new', :status => :unprocessable_entity
+    end
   end
 end

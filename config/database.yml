@@ -1,7 +1,6 @@
 defaults: &defaults
   adapter: mysql
   username: root
-  password: aai baba
   host: 127.0.0.1
 
 development:
