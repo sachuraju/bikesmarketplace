@@ -12,7 +12,7 @@
   <component name="GemRequirementsHolder" version="2">
     <requirement>
       <requirement>
-        <dependency name="sqlite3-ruby" version="0" bound="GREATER_OR_EQUAL" />
+        <dependency name="mysql" version="0" bound="GREATER_OR_EQUAL" />
       </requirement>
       <source from="config/database.yml" />
     </requirement>
@@ -33,6 +33,7 @@
     <orderEntry type="library" name="[gem] activerecord (v2.3.4, /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.4)" level="application" />
     <orderEntry type="library" name="[gem] rack (v1.0.1, /usr/lib/ruby/gems/1.8/gems/rack-1.0.1)" level="application" />
     <orderEntry type="library" name="[gem] actionpack (v2.3.4, /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4)" level="application" />
+    <orderEntry type="library" name="[gem] mysql (v2.8.1, /usr/lib/ruby/gems/1.8/gems/mysql-2.8.1)" level="application" />
   </component>
 </module>
 
