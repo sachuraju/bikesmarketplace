@@ -1,8 +1,13 @@
 class BikesController < ApplicationController
   def new
-    @bikes = Bike.new
+    @bike = Bike.new
+    render :action => 'new'
   end
   
   def create
+    @bike = Bike.new(params[:bike])
+    
+    @bike.save
+    head :ok
   end
 end
