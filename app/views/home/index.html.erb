@@ -1,1 +1,8 @@
 <h1>Bums on the Saddle</h1>
+<fieldset>
+  <% form_for :home, :url => {:action => "create"} do |f| %>
+      <%= f.label "Owner" %>  <%= f.text_field :owner, :size => "20" %>
+      <%= f.select "post", options_for_select([["bike", 1], ["car", 2]]) %>
+      <%= submit_tag "create" %>
+  <% end %>
+</fieldset>

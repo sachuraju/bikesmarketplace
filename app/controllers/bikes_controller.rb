@@ -7,7 +7,7 @@ class BikesController < ApplicationController
   def create
     @bike = Bike.new(params[:bike])
     if @bike.save
-      head :ok
+      render :action => 'show'
     else
       render :action => 'new', :status => :unprocessable_entity
     end
