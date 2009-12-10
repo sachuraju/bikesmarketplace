@@ -12,4 +12,8 @@ class BikesController < ApplicationController
       render :action => 'new', :status => :unprocessable_entity
     end
   end
+
+  protected
+  def authorize
+  end
 end

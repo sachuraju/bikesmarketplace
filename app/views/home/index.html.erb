@@ -5,4 +5,8 @@
       <%= f.select "post", options_for_select([["bike", 1], ["car", 2]]) %>
       <%= submit_tag "create" %>
   <% end %>
+
+  <p>
+    <%= link_to 'Login', :controller => :users, :action => :new %>
+  </p>
 </fieldset>
