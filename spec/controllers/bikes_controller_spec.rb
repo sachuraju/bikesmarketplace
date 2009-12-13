@@ -3,11 +3,12 @@ require File.dirname(__FILE__) + '/../spec_helper'
 describe BikesController do
   describe "new" do
       it "should render a new form for creation of bikes " do
-      Bike.expects(:new).returns(mock_bike = stub_everything)
+      mock_bike = mock('bike')
+      Bike.expects(:new).returns(mock_bike)
       get :new
 
       assigns[:bike].should == mock_bike
-      response.should be_success
+      response.should be_created
     end
   end
   
@@ -19,7 +20,7 @@ describe BikesController do
       bike.expects(:save).returns(true)
       
       post :create, 'bike' => {'brand' => 'blah', 'cost' => 1200}
-      response.should be_success
+      response.should be_created
     end
 
     it "should not create a bike if save fails" do
@@ -30,7 +31,7 @@ describe BikesController do
       
       post :create, 'bike' => {'brand' => 'blah', 'cost' => 1200}
       
-      response.status == 422
+      response.should be_unprocessable_entity
       response.should render_template(:new)
     end
   end

@@ -4,6 +4,8 @@ ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path(File.join(File.dirname(__FILE__),'..','config','environment'))
 require 'spec/autorun'
 require 'spec/rails'
+require File.expand_path(File.join(File.dirname(__FILE__),'custom_matchers'))
+
 
 # Uncomment the next line to use webrat's matchers
 #require 'webrat/integrations/rspec-rails'
@@ -45,6 +47,7 @@ Spec::Runner.configure do |config|
   # use mocha, flexmock or RR, uncomment the appropriate line:
   #
     config.mock_with :mocha
+    config.include(CustomMatchers)
   # config.mock_with :flexmock
   # config.mock_with :rr
   #
