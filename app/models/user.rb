@@ -9,6 +9,7 @@ class User < ActiveRecord::Base
   attr_accessor :password_confirmation
 
   validate :password_non_blank
+  validates_confirmation_of :password
 
 
 
@@ -54,7 +55,7 @@ private
 
 
   def self.encrypted_password(password, salt)
-    string_to_hash = password + "wibble" + salt
+    string_to_hash = password + "qwerty" + salt
     Digest::SHA1.hexdigest(string_to_hash)
   end
 

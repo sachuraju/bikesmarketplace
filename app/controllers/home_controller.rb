@@ -4,7 +4,16 @@ class HomeController < ApplicationController
     
   end
 
-  def create
+  def search
 
   end
+
+  def new_user_login
+    redirect_to :controller => :users, :action => :new
+  end
+
+  def existing_user_login
+    redirect_to :controller => :users, :action => :existing
+  end
+
 end

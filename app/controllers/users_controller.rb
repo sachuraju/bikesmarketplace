@@ -31,7 +31,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user])
 
-    
+
     respond_to do |format|
       if @user.save
         flash[:notice] = "User #{@user.name} was successfully created."
@@ -61,6 +61,21 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to(users_url) }
+    end
+  end
+
+  def existing
+    p "Hellooooooooooooooo"
+    respond_to do |format|
+      format.html # show.html.erb
+    end
+  end
+
+  def user_login
+    @user = User.authenticate(params[:name], params[:password])
+    if @user.nil?
+      flash[:notice] = "Incorrect username/password combination."
+      format.html { redirect_to(:controller => :home, :action => 'index') }
     end
   end
 end

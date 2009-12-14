@@ -1,12 +1,8 @@
-<h1>Bums on the Saddle</h1>
+<h1>Bums on the Saddle</h1> <pre> <%= link_to 'Sign In', :action => :existing_user_login %> | <%= link_to 'Sign Up', :action => :new_user_login %> </pre>
 <fieldset>
-  <% form_for :home, :url => {:action => "create"} do |f| %>
+  <% form_for :home, :url => {:action => "search"} do |f| %>
       <%= f.label "Owner" %>  <%= f.text_field :owner, :size => "20" %>
       <%= f.select "post", options_for_select([["bike", 1], ["car", 2]]) %>
-      <%= submit_tag "create" %>
+      <%= submit_tag "search" %>
   <% end %>
-
-  <p>
-    <%= link_to 'Login', :controller => :users, :action => :new %>
-  </p>
 </fieldset>
