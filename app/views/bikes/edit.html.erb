@@ -1,0 +1,12 @@
+<fieldset>
+  <%= content_tag "h3", "Editing Bike: #{@bike.id}", :class => 'floating-window header' %>
+
+  <%= error_messages_for :bike %>
+  <% form_for @bike do |form| %>
+    <ul>
+      <li><label><span class="mandatory">*</span> Brand: </label><%= form.text_field :brand %></li>
+      <li><label>Cost: </label><%= form.text_field :cost %></li>
+      <li><div class="floating-window control"><%= form.submit 'Update' %></div></li>
+    </ul>
+  <% end %>
+</fieldset>

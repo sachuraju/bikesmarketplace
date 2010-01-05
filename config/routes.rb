@@ -1,7 +1,17 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :users
 
-  map.resources :bikes, :only => [:new, :create]
+  map.resources :bikes
+
+  map.connect "/bikes/search_by_brand/:brand",
+              :controller => "bikes",
+              :action => "search_by_brand"
+
+  map.connect "/bikes/search_by_cost/:cost",
+              :controller => "bikes",
+              :action => "search_by_cost"
+
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

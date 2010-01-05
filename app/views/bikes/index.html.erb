@@ -1,0 +1,14 @@
+<html>
+<head>
+  Listing all bikes
+</head>
+<body>
+<ul>
+<% @bikes.each do |bike| %>
+      <li>  <label> <%= bike.brand %> </label> </li>
+      <li>  <label> <%= bike.cost %></label> </li>
+      <br />
+<% end %>
+</ul>
+</body>
+</html>
